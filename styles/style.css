@@ -1,3 +1,10 @@
+/*
+
+    Fundo: bege claro (#FAF3E0, #FFF8F0)
+    Texto: marrom escuro (#4B3832)
+    Botão: verde oliva (#6B8E23) ou laranja suave (#FF7F50)
+
+*/
 
 /*
     *   Paleta de cores:
@@ -6,9 +13,34 @@
 
 */
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
+*{
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color:#4B3832;
     padding: 0;
+    color:#6B8E23; 
+    height: 100vh;
+    width: 100vw;
+}
+
+body img{
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+body main{
+    height: 100vh;
+    width: 100vw;
+}
+
+section #login{
+    background-color:#FF7F50;
+    width: 250px;
+    height: 500px;
 }
