@@ -1,5 +1,18 @@
 
+    /*
+
+    Fundo: bege claro (#FAF3E0, #FFF8F0)
+    Texto: marrom escuro (#4B3832)
+    Botão: verde oliva (#6B8E23) ou laranja suave (#FF7F50)
+
+*/
+
 @media screen and (min-width: 768px) and (max-width:1024px) {
+
+    body{
+        background-image: linear-gradient(to bottom, #4B3832, #FF7F50 ,#4B3832 )
+    };
+
     section#login {
         width: 80vw;
     }
@@ -19,6 +32,11 @@
 }
 
 @media screen and (min-width:1024px) {
+
+    body{
+        background-image: linear-gradient(to bottom, #4B3832, #6B8E23 ,#4B3832 );
+    }
+
     section#login{
         width: 966px;
 
