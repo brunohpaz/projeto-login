@@ -108,7 +108,7 @@ form > input[type="submit"]:hover{
 form > div.campo {
     text-align: center;
     height: 30px;
-    background-color: #4B3832;
+    background-color: ;
     display: block;
     margin: 5px 0px 5px 0px;
     
@@ -116,6 +116,23 @@ form > div.campo {
 
 div.campo > label{
     display: none;
+}
+
+div.campo > span {
+    color: #4B3832;
+    background-color: #6B8E23;
+    font-size: 1.75em;
+    width: 40px;
+    padding: 3px;
+    border-radius: 50% 50%;
+}
+
+div.campo > input{
+    background-color: #4B3832;
+    color: #FAF3E0;
+    font-size: 1em;
+    width:80%;
+    border-radius: 5px;
 }
 
 form > a.botao{
