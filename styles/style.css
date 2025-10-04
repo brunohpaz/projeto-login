@@ -108,10 +108,19 @@ form > input[type="submit"]:hover{
 form > div.campo {
     text-align: center;
     height: 30px;
-    background-color: ;
+/*  background-color: ;  */
     display: block;
     margin: 5px 0px 5px 0px;
+                        /* gpt */
+    display: flex;
+    height: auto;
+    align-items: center;
     
+}
+
+div.campo > input:focus-within{
+    background-color: #e9fae0;
+    color: #4B3832;
 }
 
 div.campo > label{
@@ -120,8 +129,8 @@ div.campo > label{
 
 div.campo > span {
     color: #4B3832;
-    background-color: #6B8E23;
-    font-size: 1.75em;
+/*  background-color: ;  */
+    font-size: 2em;
     width: 40px;
     padding: 3px;
     border-radius: 50% 50%;
@@ -131,8 +140,10 @@ div.campo > input{
     background-color: #4B3832;
     color: #FAF3E0;
     font-size: 1em;
-    width:80%;
+    width: 100%;
     border-radius: 5px;
+
+
 }
 
 form > a.botao{
